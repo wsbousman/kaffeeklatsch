@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -35,4 +36,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://i.imgur.com/ETGUWxH.png")
+}
+
+.kaffee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px 0px 0px;
+  font-size: calc(24px + 2vmin);
+  color: rgb(238, 238, 238);
+  text-shadow: 1px 1px rgb(4, 4, 4);
+  font-family: "Lexend Zetta", sans-serif;
+  font-weight: 100;
+  transform: scaleX(1.6);
+}
+
+.line {
+  border-bottom: 1px solid rgb(238, 238, 238);
+  max-width: 50%;
+  margin: auto;
+}
+
+.blurb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  font-size: calc(9px + 2vmin);
+  color: rgb(238, 238, 238);
+  text-shadow: 1px 1px rgb(4, 4, 4);
+  font-family: "Azeret Mono", monospace;  
+  font-weight: 100;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .kaffee {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 23px 0px 0px 0px;
+      font-size: calc(22px + 2vmin);
+      color: rgb(238, 238, 238);
+      text-shadow: 1px 1px rgb(4, 4, 4);
+      font-family: "Lexend Zetta", sans-serif;
+      font-weight: 100;
+      transform: scaleX(1.1);
+    }
+
+    .blurb{
+      width: 50%;
+      margin: auto;
+    }
 }
