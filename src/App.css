@@ -40,7 +40,7 @@
 */
 
 .wrapper {
-  display: flex;
+  display: inline;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -63,7 +63,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 0px 0px 0px;
+  padding: 45px 0px 0px 0px;
   font-size: calc(24px + 2vmin);
   color: rgb(238, 238, 238);
   text-shadow: 1px 1px rgb(4, 4, 4);
@@ -74,7 +74,7 @@
 
 .line {
   border-bottom: 1px solid rgb(238, 238, 238);
-  max-width: 50%;
+  max-width: 60%;
   margin: auto;
 }
 
@@ -83,7 +83,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px 0px 0px 0px;
+  text-align: center;
+  padding: 10px 30px 0px 30px;
   font-size: calc(9px + 2vmin);
   color: rgb(238, 238, 238);
   text-shadow: 1px 1px rgb(4, 4, 4);
@@ -101,7 +102,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 23px 0px 0px 0px;
+      padding: 20px 0px 0px 0px;
       font-size: calc(22px + 2vmin);
       color: rgb(238, 238, 238);
       text-shadow: 1px 1px rgb(4, 4, 4);
@@ -111,7 +112,16 @@
     }
 
     .blurb{
-      width: 50%;
-      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 8px 12px 0px 12px;
+      font-size: calc(9px + 2vmin);
+      color: rgb(238, 238, 238);
+      text-shadow: 1px 1px rgb(4, 4, 4);
+      font-family: "Azeret Mono", monospace;  
+      font-weight: 100;      
     }
 }
