@@ -1,9 +1,16 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from 'react-responsive-carousel';
+import {motion} from 'framer-motion'
 import './App.css';
+// Components:
+import ImageSlider from './components/slider'
+import Blurb from './components/blurb'
 
-function App() {
+const App = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapperRelative">
       <div className="bg">
         <div className="wrapper">
           <p className="kaffee">
@@ -13,11 +20,18 @@ function App() {
         <div className="line"></div>
         <div className="wrapper">
           <p className="blurb">
-            Today, I got coffee with my friend Jake. He mentioned a friend who was working in UI/UX design, and that this friend had spent the last week writing a total of three lines of CSS. I didnt intend to come off as overconfident or entitled- but I may have said something to the effect of being able to manage that myself. Perhaps even four lines a week. Following coffee, I built and deployed this portfolio of mockups to showcase my frontend design abilities. Feel free to peruse them and, if you're interested, contact me. Thanks for looking.
+            Today, I got coffee with my friend Jake. 
+            <br></br>He mentioned a friend in UI/UX design who spent the prior week writing three total lines of CSS. 
+            <br></br>While not wanting to come off as overconfident or entitled, I may have said something to the effect of being able to manage that myself. Perhaps even four lines a week. 
+            <br></br>Following coffee, I built and deployed this portfolio of mockups to showcase my frontend design abilities. If you're interested, contact me. 
+            <br></br>Thanks for looking.
           </p>
+          <div className="wrapperRelative">
+          <ImageSlider />
+          </div>
         </div>
       </div>
-    </div>
+    </div>  
   );
 }
 

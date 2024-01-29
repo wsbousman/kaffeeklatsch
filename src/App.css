@@ -46,16 +46,34 @@
   justify-content: center;
 }
 
+.wrapperRelative {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.relative {
+  position: "relative";
+}
+
 .bg {
   position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
-  overflow: scroll;
+  overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("https://i.imgur.com/ETGUWxH.png")
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .kaffee {
@@ -90,6 +108,17 @@
   text-shadow: 1px 1px rgb(4, 4, 4);
   font-family: "Azeret Mono", monospace;  
   font-weight: 100;
+}
+
+.slider{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  border-radius: 6px;
 }
 
 @media only screen 
