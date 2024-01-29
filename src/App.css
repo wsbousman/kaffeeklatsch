@@ -64,7 +64,7 @@
   height: 100vh;
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow: scroll;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("https://i.imgur.com/ETGUWxH.png")
