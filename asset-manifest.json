@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kaffeeklatsch/static/css/main.f324d70e.css",
+    "main.css": "/kaffeeklatsch/static/css/main.f5508d98.css",
     "main.js": "/kaffeeklatsch/static/js/main.4a712107.js",
     "static/js/787.2eb5a1cf.chunk.js": "/kaffeeklatsch/static/js/787.2eb5a1cf.chunk.js",
     "static/media/ti2.png": "/kaffeeklatsch/static/media/ti2.9f6cc5f2e19c99ed38c4.png",
@@ -9,12 +9,12 @@
     "static/media/ti5.png": "/kaffeeklatsch/static/media/ti5.c4d74618895c582b5842.png",
     "static/media/ti1.png": "/kaffeeklatsch/static/media/ti1.19602155fb8a260fe023.png",
     "index.html": "/kaffeeklatsch/index.html",
-    "main.f324d70e.css.map": "/kaffeeklatsch/static/css/main.f324d70e.css.map",
+    "main.f5508d98.css.map": "/kaffeeklatsch/static/css/main.f5508d98.css.map",
     "main.4a712107.js.map": "/kaffeeklatsch/static/js/main.4a712107.js.map",
     "787.2eb5a1cf.chunk.js.map": "/kaffeeklatsch/static/js/787.2eb5a1cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f324d70e.css",
+    "static/css/main.f5508d98.css",
     "static/js/main.4a712107.js"
   ]
 }
